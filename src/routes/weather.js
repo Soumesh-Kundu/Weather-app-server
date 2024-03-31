@@ -1,7 +1,7 @@
 import express from 'express'
 import axios from 'axios'
 import { config } from 'dotenv'
-import { getWeahterData } from '../helper/getWeather'
+import { getWeahterData } from '../helper/getWeather.js'
 config()
 export const router=express.Router()
 //api endpoint - /api/weather
